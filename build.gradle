@@ -27,6 +27,3 @@ sourceSets {
     }
 }
 
-project.tasks.withType(org.jfrog.gradle.plugin.artifactory.task.BuildInfoBaseTask) { Task task ->
-    task.enabled = false
-}
